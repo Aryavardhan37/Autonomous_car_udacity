@@ -22,7 +22,7 @@ Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 
 Loading D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\UnityEngine.CloudBuild.dll into Unity Child Domain
 Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll (this message is harmless)
 Loading D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll into Unity Child Domain
-- Completed reload, in  0.038 seconds
+- Completed reload, in  0.041 seconds
 Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on ReturnToMainMenu
@@ -37,23 +37,23 @@ desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.473200 ms
+UnloadTime: 2.463300 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 5bfc -> priority: 1 
-  Thread -> id: 1a78 -> priority: 1 
-  Thread -> id: 2884 -> priority: 1 
-  Thread -> id: 9d8 -> priority: 1 
+  Thread -> id: 177c -> priority: 1 
+  Thread -> id: 36b8 -> priority: 1 
+  Thread -> id: 2cac -> priority: 1 
+  Thread -> id: 4cf4 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.498800 ms
+UnloadTime: 4.947400 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 419.
-Total: 0.296200 ms (FindLiveObjects: 0.040800 ms CreateObjectMapping: 0.009000 ms MarkObjects: 0.233200 ms  DeleteObjects: 0.012300 ms)
+Total: 0.303700 ms (FindLiveObjects: 0.028600 ms CreateObjectMapping: 0.015900 ms MarkObjects: 0.240400 ms  DeleteObjects: 0.018000 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.335500 ms
+UnloadTime: 3.446100 ms
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1465.
-Total: 0.748900 ms (FindLiveObjects: 0.082200 ms CreateObjectMapping: 0.023000 ms MarkObjects: 0.368400 ms  DeleteObjects: 0.274600 ms)
+Total: 0.976900 ms (FindLiveObjects: 0.080800 ms CreateObjectMapping: 0.043600 ms MarkObjects: 0.435500 ms  DeleteObjects: 0.415900 ms)
 
 Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\System.Configuration.dll (this message is harmless)
 Platform assembly: D:\AI_project\Autonomous_car_udacity\Default Windows desktop 64-bit_Data\Managed\System.Xml.dll (this message is harmless)
@@ -65,38 +65,3 @@ Connection Open
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.459800 ms
-
-Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 432.
-Total: 1.993500 ms (FindLiveObjects: 0.045600 ms CreateObjectMapping: 0.016700 ms MarkObjects: 0.470700 ms  DeleteObjects: 1.459600 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.417200 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 958.
-Total: 0.418700 ms (FindLiveObjects: 0.030400 ms CreateObjectMapping: 0.013600 ms MarkObjects: 0.358700 ms  DeleteObjects: 0.015500 ms)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.624500 ms
-
-Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 432.
-Total: 1.939000 ms (FindLiveObjects: 0.086200 ms CreateObjectMapping: 0.016500 ms MarkObjects: 0.970300 ms  DeleteObjects: 0.863500 ms)
-
-4/27/2024 5:08:37 PM|Fatal|WebSocket.acceptException|System.IO.IOException: EndRead failure ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
-                           
-                             at System.Net.Sockets.Socket+SocketAsyncResult.CheckIfThrowDelayedException () [0x00000] in <filename unknown>:0 
-                             at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
-                             at System.Net.Sockets.Socket.EndReceive (IAsyncResult result) [0x00000] in <filename unknown>:0 
-                             at System.Net.Sockets.NetworkStream.EndRead (IAsyncResult ar) [0x00000] in <filename unknown>:0 
-                             --- End of inner exception stack trace ---
-                             at System.Net.Sockets.NetworkStream.EndRead (IAsyncResult ar) [0x00000] in <filename unknown>:0 
-                             at WebSocketSharp.Ext+<ReadBytesAsync>c__AnonStoreyF.<>m__3 (IAsyncResult ar) [0x00000] in <filename unknown>:0 
